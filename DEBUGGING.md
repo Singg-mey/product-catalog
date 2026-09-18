@@ -25,9 +25,6 @@
 - **What It Showed:** The Network tab recorded an outgoing HTTP `GET` request to `https://fakestoreapi.com/produts` that failed with a `404 Not Found` status code. Inspecting the request URL immediately highlighted the spelling typo (`/produts` instead of `/products`).
 - **Fix:** Corrected the endpoint URL string inside the `useEffect` fetch call from `/produts` back to `/products`.
 
-
-```
-
 ---
 
 ### One-Sentence Deliverable Summary
