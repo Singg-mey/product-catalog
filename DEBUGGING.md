@@ -33,3 +33,5 @@
 ### One-Sentence Deliverable Summary
 
 > **Sources Breakpoint** caught the `.map()` crash by freezing execution right before state evaluated to `null`; **React DevTools** caught the silent wrong value by exposing the mutated prop name on the child component; and the **Network Tab** caught the failed fetch by revealing the `404 Not Found` HTTP status on the misspelled API route—none of which the console alone could isolate because console logs only output what you explicitly print, whereas specialized DevTools inspect live execution state, component props, and HTTP network traffic directly.
+
+---
